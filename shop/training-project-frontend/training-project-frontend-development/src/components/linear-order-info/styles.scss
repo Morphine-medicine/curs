@@ -1,0 +1,14 @@
+.order-info-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    text-align: center;
+    align-items: center;
+    .field:hover{
+        background-color: #b48768;
+        color: #fff;
+        transition: 1s ease-in-out;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,22 @@
+.order-card-container{
+  min-width: 500px;
+
+  .order-card-img{
+    max-height: 200px;
+  }
+  .card-title-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    .card-item-price{
+      font-weight: 700;
+      color: #05004d;
+    }
+  }
+  .card-actions-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+}

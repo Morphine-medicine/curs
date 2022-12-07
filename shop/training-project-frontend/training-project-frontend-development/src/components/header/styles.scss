@@ -1,0 +1,18 @@
+.link{
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+        transition: .5s ease;
+        color: #b48768;
+        cursor: pointer;
+    }
+}
+.link-active{
+    color: #e45b00;
+
+}
+
+.toolbar-container{
+    justify-content: space-around;
+    font-size: 18px;
+}
